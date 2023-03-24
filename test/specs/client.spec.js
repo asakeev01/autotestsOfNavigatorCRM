@@ -18,7 +18,7 @@ describe("Client Suit", ()=>{
         await ClientsPage.fillSurname('Asakeev');
         await ClientsPage.fillFirstName('Aidar');
         await ClientsPage.chooseGenderOption();
-        await ClientsPage.fillEmail('aidar@mail.ru');
+        await ClientsPage.fillEmail('a@mail.ru');
         await ClientsPage.fillPhonenumber('996707910434');
         await ClientsPage.fillDatebirth('02/12/2000');
         await ClientsPage.clickSave();

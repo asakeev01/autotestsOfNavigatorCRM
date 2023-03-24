@@ -48,6 +48,7 @@ class ClientsPage {
 
     async clickOnUser(){
         await this.user.click();
+        await browser.pause(2000);
     }
 
     async clickSave(){

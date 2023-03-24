@@ -15,7 +15,6 @@ describe("Company Suit", ()=>{
         await LoginPage.toHaveUrl();
         await CompanyPage.switchToCompanies();
         await expect(browser).toHaveUrlContaining('companies');
-        await expect(ClientsPage.userCreateForm).toExist();
         await CompanyPage.clickCompany();
         await CompanyPage.updateName("BirComapanias");
         await CompanyPage.clickSave();

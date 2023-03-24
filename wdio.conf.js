@@ -1,7 +1,7 @@
 exports.config = {
     runner: 'local',
     specs: [
-        './test/specs/client.spec.js'
+        './test/specs/company.spec.js'
     ],
     exclude: [
         './test/specs/example.e2e.js'
